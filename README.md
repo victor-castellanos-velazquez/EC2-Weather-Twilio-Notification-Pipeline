@@ -12,12 +12,12 @@ This project is an automated weather notification system that uses AWS EC2 to qu
 ## Project Structure
 
 wapi_project/ │ 
-├── ec2_project/ │ 
-├── consulta.json # Contains municipality coordinates and names. │ 
-├── credenciales.py # Stores API keys and credentials for Twilio and Weather API. │ 
-├── pronostico_clima.py # Main script to fetch weather and send SMS. │ 
-├── requirements.txt # List of dependencies for the project. │ 
-├── README.md # Project documentation.
+	├── ec2_project/ │ 
+	├── consulta.json # Contains municipality coordinates and names. │ 
+	├── credenciales.py # Stores API keys and credentials for Twilio and Weather API. │ 
+	├── pronostico_clima.py # Main script to fetch weather and send SMS. │ 
+	├── requirements.txt # List of dependencies for the project. │ 
+	├── README.md # Project documentation.
 
 
 ## Prerequisites
