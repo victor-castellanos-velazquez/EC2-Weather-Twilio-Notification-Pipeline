@@ -60,9 +60,9 @@ Example:
 
 	{
   	"Locacion": {
-        "name": "Tequisquiapan",
-        "lat": 20.52,
-        "lon": -99.88
+        "name": "City",
+        "lat": 00.000000,
+        "lon": -00.00000
   }
 }
 
@@ -79,8 +79,6 @@ twilio_auth_token = "your_twilio_token"
 f_phone_number = "your_twilio_phone"
 t_phone_number = "recipient_phone"
 api_key_wapi = "your_weather_api_key"
-lat = 20.52
-lon = -99.88
 
 
 	- pronostico_clima.py: The core script that fetches weather information and sends it via Twilio SMS.
