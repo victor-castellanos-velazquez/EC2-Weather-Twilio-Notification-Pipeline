@@ -1,0 +1,3 @@
+Weather Notification System using AWS EC2 and Twilio
+Overview
+This project is an automated weather notification system that uses AWS EC2 to query weather data for a specific municipality and sends notifications via Twilio. The project is developed in Python and is designed to run on an AWS EC2 instance. The system leverages a weather API to get real-time weather information and Twilio's API to send SMS notifications to a specified phone number.

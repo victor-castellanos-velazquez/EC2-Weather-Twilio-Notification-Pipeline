@@ -1,0 +1,8 @@
+twilio
+pandas
+unidecode
+requests
+sqlalchemy
+psycopg2-binary
+translate
+boto3
