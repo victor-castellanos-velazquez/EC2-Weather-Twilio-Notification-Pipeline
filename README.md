@@ -11,13 +11,13 @@ This project is an automated weather notification system that uses AWS EC2 to qu
 
 ## Project Structure
 
-wapi_project/ │ 
-	├── ec2_project/ │ 
-	├── consulta.json # Contains municipality coordinates and names. │ 
-	├── credenciales.py # Stores API keys and credentials for Twilio and Weather API. │ 
-	├── pronostico_clima.py # Main script to fetch weather and send SMS. │ 
-	├── requirements.txt # List of dependencies for the project. │ 
-	├── README.md # Project documentation.
+wapi_project/ │ 	
+	├── ec2_project/ │ 	
+	├── consulta.json # Contains municipality coordinates and names. │ 	
+	├── credenciales.py # Stores API keys and credentials for Twilio and Weather API. │ 	
+	├── pronostico_clima.py # Main script to fetch weather and send SMS. │ 	
+	├── requirements.txt # List of dependencies for the project. │ 	
+	├── README.md # Project documentation.	
 
 
 ## Prerequisites
@@ -68,17 +68,17 @@ Example:
 
 	- credenciales.py: This file holds sensitive credentials such as your Twilio account SID, authentication token, phone numbers, and Weather API key.
 
-r_user = "your_database_user"
-r_password = "your_database_password"
-r_host = "your_database_host"
-r_port = 5432
-r_dbname = "your_database_name"
-api_key = "your_api_key"
-twilio_account_sid = "your_twilio_sid"
-twilio_auth_token = "your_twilio_token"
-f_phone_number = "your_twilio_phone"
-t_phone_number = "recipient_phone"
-api_key_wapi = "your_weather_api_key"
+r_user = "your_database_user"	
+r_password = "your_database_password"	
+r_host = "your_database_host"	
+r_port = 5432	
+r_dbname = "your_database_name"	
+api_key = "your_api_key"	
+twilio_account_sid = "your_twilio_sid"	
+twilio_auth_token = "your_twilio_token"	
+f_phone_number = "your_twilio_phone"	
+t_phone_number = "recipient_phone"	
+api_key_wapi = "your_weather_api_key"	
 
 
 	- pronostico_clima.py: The core script that fetches weather information and sends it via Twilio SMS.
